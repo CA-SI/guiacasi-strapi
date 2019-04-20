@@ -1,0 +1,38 @@
+{
+  "connection": "default",
+  "collectionName": "subcategories",
+  "info": {
+    "name": "subcategories",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "categories": {
+      "model": "categories"
+    },
+    "created_at": {
+      "type": "date",
+      "required": true
+    },
+    "updated_at": {
+      "required": true,
+      "type": "date"
+    },
+    "establishment": {
+      "model": "establishments",
+      "via": "subcategories"
+    }
+  }
+}

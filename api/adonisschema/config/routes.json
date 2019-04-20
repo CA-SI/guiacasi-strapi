@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/adonisschemas",
+      "handler": "Adonisschema.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/adonisschemas/count",
+      "handler": "Adonisschema.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/adonisschemas/:id",
+      "handler": "Adonisschema.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/adonisschemas",
+      "handler": "Adonisschema.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/adonisschemas/:id",
+      "handler": "Adonisschema.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/adonisschemas/:id",
+      "handler": "Adonisschema.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

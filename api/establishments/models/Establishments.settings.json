@@ -17,10 +17,6 @@
     "name": {
       "type": "string"
     },
-    "subcategories": {
-      "collection": "subcategories",
-      "via": "establishment"
-    },
     "image": {
       "collection": "file",
       "via": "related",
@@ -46,6 +42,10 @@
     },
     "updated_at": {
       "type": "date"
+    },
+    "subcategories": {
+      "collection": "subcategories",
+      "via": "establishment"
     }
   }
 }

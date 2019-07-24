@@ -22,14 +22,6 @@
     "categories": {
       "model": "categories"
     },
-    "created_at": {
-      "type": "date",
-      "required": true
-    },
-    "updated_at": {
-      "required": true,
-      "type": "date"
-    },
     "establishment": {
       "model": "establishments",
       "via": "subcategories"
